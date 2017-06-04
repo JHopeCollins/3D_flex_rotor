@@ -1,0 +1,136 @@
+
+set term pngcairo size 700,524 enhanced font 'Verdana,10'
+
+#----------------------
+
+set output 'SgamR.png'
+
+set xlabel 'x/c'
+set ylabel 'y/c'
+
+set palette defined (0 "green", 1 "blue", 2 "red")
+
+plot 'Sgam.dat' u 1:2:3 notitle with image
+
+#----------------------
+
+set output 'SliftR.png'
+
+set xlabel 'x/c'
+set ylabel 'y/c'
+
+set palette defined (0 "green", 1 "blue", 2 "red")
+
+plot 'Sgam.dat' u 1:2:4 notitle with image
+
+#----------------------
+
+set output 'SleftEVR1.png'
+
+set xlabel 'x/c'
+set ylabel 'y/c'
+
+set palette defined (0 "green", 1 "blue", 2 "red")
+
+plot 'fort.1001' u 1:2:3 notitle with image
+
+#----------------------
+
+set output 'SleftEVR2.png'
+
+set xlabel 'x/c'
+set ylabel 'y/c'
+
+set palette defined (0 "green", 1 "blue", 2 "red")
+
+plot 'fort.1002' u 1:2:3 notitle with image
+
+#----------------------
+
+set output 'SleftEVR3.png'
+
+set xlabel 'x/c'
+set ylabel 'y/c'
+
+set palette defined (0 "green", 1 "blue", 2 "red")
+
+plot 'fort.1003' u 1:2:3 notitle with image
+
+#----------------------
+
+set output 'SleftEVR4.png'
+
+set xlabel 'x/c'
+set ylabel 'y/c'
+
+set palette defined (0 "green", 1 "blue", 2 "red")
+
+plot 'fort.1004' u 1:2:3 notitle with image
+
+#----------------------
+
+set output 'SleftEVR5.png'
+
+set xlabel 'x/c'
+set ylabel 'y/c'
+
+set palette defined (0 "green", 1 "blue", 2 "red")
+
+plot 'fort.1005' u 1:2:3 notitle with image
+
+#----------------------
+
+set output 'SleftEVR6.png'
+
+set xlabel 'x/c'
+set ylabel 'y/c'
+
+set palette defined (0 "green", 1 "blue", 2 "red")
+
+plot 'fort.1006' u 1:2:3 notitle with image
+
+#----------------------
+
+set output 'SleftEVR7.png'
+
+set xlabel 'x/c'
+set ylabel 'y/c'
+
+set palette defined (0 "green", 1 "blue", 2 "red")
+
+plot 'fort.1007' u 1:2:3 notitle with image
+
+#----------------------
+
+set output 'SleftEVR8.png'
+
+set xlabel 'x/c'
+set ylabel 'y/c'
+
+set palette defined (0 "green", 1 "blue", 2 "red")
+
+plot 'fort.1008' u 1:2:3 notitle with image
+
+#----------------------
+
+set output 'SleftEVR9.png'
+
+set xlabel 'x/c'
+set ylabel 'y/c'
+
+set palette defined (0 "green", 1 "blue", 2 "red")
+
+plot 'fort.1009' u 1:2:3 notitle with image
+
+#----------------------
+
+set output 'SleftEVR10.png'
+
+set xlabel 'x/c'
+set ylabel 'y/c'
+
+set palette defined (0 "green", 1 "blue", 2 "red")
+
+plot 'fort.1010' u 1:2:3 notitle with image
+
+#----------------------

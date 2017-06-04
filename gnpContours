@@ -1,0 +1,28 @@
+set term pngcairo size 700,524, enhanced font 'Verdana,10'
+
+#---------------
+
+set output 'ContourUleftER1.png'
+
+set view 60, 30, 1, 1.1
+
+set samples, 20,20
+set isosamples 21,21
+set contour base
+set cntrlabel format '%8.3g' font ',7' start 5 interval 20
+set cntrparam levels auto 10
+set stle data lines
+
+unset paxis 1 tics
+unset paxis 2 tics
+unset paxis 3 tics
+unset paxis 4 tics
+unset paxis 5 tics
+unset paxis 6 tics
+unset paxis 7 tics
+
+set title "eigenmode"
+set xlabel "streamwise"
+set ylabel "crosswise"
+set zlabel "displacements"
+

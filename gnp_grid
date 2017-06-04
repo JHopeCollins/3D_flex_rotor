@@ -1,0 +1,137 @@
+set term pngcairo size 700,524 enhanced font 'Verdana,10'
+
+set xrange [-5:5]
+#set yrange [-4:4]
+#set zrange [-4:4]
+
+#------------------------------
+
+set output 'blade-grid.png'
+
+set xlabel 'x'
+set ylabel 'y'
+set zlabel 'z'
+
+#set xrange [-1:1]
+#set yrange [-1:1]
+
+#set view 90,90
+
+splot 'fort.120' u 1:2:3 with lines
+
+#------------------------------
+
+set output 'rotor-grid.png'
+
+set xlabel 'x'
+set ylabel 'y'
+set zlabel 'z'
+
+set view 90,1
+
+splot 'fort.120' u 1:2:3 w l, \
+	'fort.120' u 4:5:6 w l, \
+	'fort.120' u 7:8:9 w l
+
+#------------------------------
+
+set output 'blade-collocation.png'
+
+set xlabel 'x'
+set ylabel 'y'
+set zlabel 'z'
+
+splot 'fort.121' u 1:2:3 with lines
+
+#------------------------------
+
+set output 'rotor-collocation.png'
+
+set xlabel 'x'
+set ylabel 'y'
+set zlabel 'z'
+
+#set view 45,45,1
+
+splot 'fort.121' u 1:2:3 w l, \
+	'fort.121' u 4:5:6 w l, \
+	'fort.121' u 7:8:9 w l
+
+#------------------------------
+
+set output 'blade-vortex.png'
+
+set xlabel 'x'
+set ylabel 'y'
+set zlabel 'z'
+
+
+splot 'fort.122' u 1:2:3 with lines
+
+#------------------------------
+
+set output 'rotor-vortex.png'
+
+set xlabel 'x'
+set ylabel 'y'
+set zlabel 'z'
+
+
+#set view 45,45,1
+
+splot 'fort.122' u 1:2:3 w l, \
+	'fort.122' u 4:5:6 w l, \
+	'fort.122' u 7:8:9 w l
+
+#------------------------------
+
+set output 'wake-single.png'
+
+set xlabel 'x'
+set ylabel 'y'
+set zlabel 'z'
+
+unset xrange
+
+#set view 45,20,1
+
+splot 'fort.123' u 1:2:3 w l
+
+#------------------------------
+
+set output 'wake-full.png'
+
+set xlabel 'x'
+set ylabel 'y'
+set zlabel 'z'
+
+unset xrange
+
+set view 1,1
+
+splot 'fort.123' u 1:2:3 w l, \
+	'fort.123' u 4:5:6 w l, \
+	'fort.123' u 7:8:9 w l
+
+#------------------------------
+
+set output 'full-grid.png'
+
+set xlabel 'x'
+set ylabel 'y'
+set zlabel 'z'
+
+unset xrange
+#set xrange [-1:2]
+
+unset view
+set view 61,331
+
+set hidden3d
+
+splot   'fort.123' u 1:2:3 w l, \
+	'fort.123' u 4:5:6 w l, \
+	'fort.123' u 7:8:9 w l, \
+	'fort.120' u 1:2:3 w l lc "blue" , \
+	'fort.120' u 4:5:6 w l lc "green", \
+	'fort.120' u 7:8:9 w l lc  "red"

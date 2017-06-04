@@ -1,0 +1,11 @@
+
+*.o
+*.out
+*.dat
+*.mod
+*.pdf
+*.ps
+*.swp
+*.png
+*/
+fort*

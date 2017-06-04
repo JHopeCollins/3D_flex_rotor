@@ -1,0 +1,266 @@
+set term pngcairo size 700,524 enhanced font 'Verdana,10'
+
+#----------------------
+
+set output 'UleftEVR1.png'
+
+set xlabel 'x/c'
+set ylabel 'y/c'
+
+set palette defined (0 "green", 1 "blue", 2 "red")
+
+plot 'fort.2001' u 1:2:3 w p pt 5 ps 2.5 palette 
+
+#----------------------
+
+set output 'UleftEVR2.png'
+
+set xlabel 'x/c'
+set ylabel 'y/c'
+
+set palette defined (0 "green", 1 "blue", 2 "red")
+
+plot 'fort.2002' u 1:2:3 w p pt 5 ps 2.5 palette 
+
+#----------------------
+
+set output 'UleftEVR3.png'
+
+set xlabel 'x/c'
+set ylabel 'y/c'
+
+set palette defined (0 "green", 1 "blue", 2 "red")
+
+plot 'fort.2003' u 1:2:3 w p pt 5 ps 2.5 palette 
+
+#----------------------
+
+set output 'UleftEVR4.png'
+
+set xlabel 'x/c'
+set ylabel 'y/c'
+
+set palette defined (0 "green", 1 "blue", 2 "red")
+
+plot 'fort.2004' u 1:2:3 w p pt 5 ps 2.5 palette 
+
+#----------------------
+
+set output 'UleftEVR5.png'
+
+set xlabel 'x/c'
+set ylabel 'y/c'
+
+set palette defined (0 "green", 1 "blue", 2 "red")
+
+plot 'fort.2005' u 1:2:3 w p pt 5 ps 2.5 palette 
+
+#----------------------
+
+set output 'UleftEVR6.png'
+
+set xlabel 'x/c'
+set ylabel 'y/c'
+
+set palette defined (0 "green", 1 "blue", 2 "red")
+
+plot 'fort.2006' u 1:2:3 w p pt 5 ps 2.5 palette 
+
+#----------------------
+
+set output 'UleftEVR7.png'
+
+set xlabel 'x/c'
+set ylabel 'y/c'
+
+set palette defined (0 "green", 1 "blue", 2 "red")
+
+plot 'fort.2007' u 1:2:3 w p pt 5 ps 2.5 palette 
+
+#----------------------
+
+set output 'UleftEVR8.png'
+
+set xlabel 'x/c'
+set ylabel 'y/c'
+
+set palette defined (0 "green", 1 "blue", 2 "red")
+
+plot 'fort.2008' u 1:2:3 w p pt 5 ps 2.5 palette 
+
+#----------------------
+
+set output 'UleftEVR9.png'
+
+set xlabel 'x/c'
+set ylabel 'y/c'
+
+set palette defined (0 "green", 1 "blue", 2 "red")
+
+plot 'fort.2009' u 1:2:3 w p pt 5 ps 2.5 palette 
+
+#----------------------
+
+set output 'UleftEVR10.png'
+
+set xlabel 'x/c'
+set ylabel 'y/c'
+
+set palette defined (0 "green", 1 "blue", 2 "red")
+
+plot 'fort.2010' u 1:2:3 w p pt 5 ps 2.5 palette 
+
+#----------------------
+
+set output 'UleftEVI1.png'
+
+set xlabel 'x/c'
+set ylabel 'y/c'
+
+set palette defined (0 "green", 1 "blue", 2 "red")
+
+plot 'fort.2001' u 1:2:4 w p pt 5 ps 2.5 palette 
+
+#----------------------
+
+set output 'UleftEVI2.png'
+
+set xlabel 'x/c'
+set ylabel 'y/c'
+
+set palette defined (0 "green", 1 "blue", 2 "red")
+
+plot 'fort.2002' u 1:2:4 w p pt 5 ps 2.5 palette 
+
+#----------------------
+
+set output 'UleftEVI3.png'
+
+set xlabel 'x/c'
+set ylabel 'y/c'
+
+set palette defined (0 "green", 1 "blue", 2 "red")
+
+plot 'fort.2003' u 1:2:4 w p pt 5 ps 2.5 palette 
+
+#----------------------
+
+set output 'UleftEVI4.png'
+
+set xlabel 'x/c'
+set ylabel 'y/c'
+
+set palette defined (0 "green", 1 "blue", 2 "red")
+
+plot 'fort.2004' u 1:2:4 w p pt 5 ps 2.5 palette 
+
+#----------------------
+
+set output 'UleftEVI5.png'
+
+set xlabel 'x/c'
+set ylabel 'y/c'
+
+set palette defined (0 "green", 1 "blue", 2 "red")
+
+plot 'fort.2005' u 1:2:4 w p pt 5 ps 2.5 palette 
+
+#----------------------
+
+set output 'UleftEVI6.png'
+
+set xlabel 'x/c'
+set ylabel 'y/c'
+
+set palette defined (0 "green", 1 "blue", 2 "red")
+
+plot 'fort.2006' u 1:2:4 w p pt 5 ps 2.5 palette 
+
+#----------------------
+
+set output 'UleftEVI7.png'
+
+set xlabel 'x/c'
+set ylabel 'y/c'
+
+set palette defined (0 "green", 1 "blue", 2 "red")
+
+plot 'fort.2007' u 1:2:4 w p pt 5 ps 2.5 palette 
+
+#----------------------
+
+set output 'UleftEVI8.png'
+
+set xlabel 'x/c'
+set ylabel 'y/c'
+
+set palette defined (0 "green", 1 "blue", 2 "red")
+
+plot 'fort.2008' u 1:2:4 w p pt 5 ps 2.5 palette 
+
+#----------------------
+
+set output 'UleftEVI9.png'
+
+set xlabel 'x/c'
+set ylabel 'y/c'
+
+set palette defined (0 "green", 1 "blue", 2 "red")
+
+plot 'fort.2009' u 1:2:4 w p pt 5 ps 2.5 palette 
+
+#----------------------
+
+set output 'UleftEVI10.png'
+
+set xlabel 'x/c'
+set ylabel 'y/c'
+
+set palette defined (0 "green", 1 "blue", 2 "red")
+
+plot 'fort.2010' u 1:2:4 w p pt 5 ps 2.5 palette 
+#with image
+
+#----------------------
+
+#set output 'gamR.png'
+#
+#set xlabel 'x/c'
+#set ylabel 'y/c'
+#
+#set palette defined (0 "green", 1 "blue", 2 "red")
+#
+#plot 'gam.dat' u 1:2:3 notitle with image
+#
+##----------------------
+#
+#set output 'gamI.png'
+#
+#set xlabel 'x/c'
+#set ylabel 'y/c'
+#
+#set palette defined (0 "green", 1 "blue", 2 "red")
+#
+#plot 'gam.dat' u 1:2:4 notitle with image
+#
+##----------------------
+#
+#set output 'liftR.png'
+#
+#set xlabel 'x/c'
+#set ylabel 'y/c'
+#
+#set palette defined (0 "green", 1 "blue", 2 "red")
+#
+#plot 'gam.dat' u 1:2:5 notitle with image
+#
+##----------------------
+#
+#set output 'liftI.png'
+#
+#set xlabel 'x/c'
+#set ylabel 'y/c'
+#
+#set palette defined (0 "green", 1 "blue", 2 "red")
+#
+#plot 'gam.dat' u 1:2:6 notitle with image

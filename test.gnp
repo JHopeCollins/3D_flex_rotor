@@ -1,0 +1,15 @@
+set term pngcairo size 700,524 enhanced font 'Verdana,10'
+
+#set output 'vringtest.png'
+#
+#set palette defined (0 "green", 1 "blue", 2 "red")
+#
+#set cbrange [-0.8:0.4]
+#
+#plot 'fort.120' u 1:2:3 notitle with image
+
+#--------------------------------------
+
+set output 'grid.png'
+
+plot 'fort.142' u 1:2
